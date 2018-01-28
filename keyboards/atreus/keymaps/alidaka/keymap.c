@@ -17,11 +17,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_EXLM, KC_AT,   KC_LCBR, KC_RCBR, KC_AMPR,                   KC_PGUP,  KC_7,    KC_8,    KC_9,  KC_PLUS ,
     KC_HASH, KC_DLR,  KC_LPRN, KC_RPRN, KC_ASTR,                   KC_PGDN,  KC_4,    KC_5,    KC_6,  KC_MINUS ,
     KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_GRAVE,                  KC_EQL,   KC_1,    KC_2,    KC_3,  KC_ENT ,
-    _______, _______, _______, _______, _______, _______, _______, _______,  _______, KC_DOT,  KC_0,  _______  ),
+    _______, _______, _______, _______, _______, _______, _______, _______,  KC_EQL, KC_DOT,   KC_0,  _______  ),
 
   [FUN] = KEYMAP(
     KC_INS,  KC_HOME, KC_UP,   KC_END,  KC_PGUP,                   KC_VOLU,  KC_F7,   KC_F8,   KC_F9,   KC_F10 ,
     KC_DELT, KC_LEFT, KC_DOWN, KC_RGHT, KC_DOWN,                   KC_VOLD,  KC_F4,   KC_F5,   KC_F6,   KC_F11 ,
     KC_LSFT, KC_NO,   KC_NO,   KC_NO,   KC_NO,                     KC_MUTE,  KC_F1,   KC_F2,   KC_F3,   KC_F12 ,
-    _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______, _______  )
+    _______, RESET,   _______, _______, _______, _______, _______, KC_SPC,   _______, _______, _______, _______  )
 };
